@@ -36,3 +36,15 @@ for path in origin_folder_path_list:
     shutil.rmtree(path)
 
 
+# RESET
+# For texting the codes above
+for reset_item in [images_folder,documents_folder]:
+    if os.path.exists(reset_item):
+        for f1 in os.listdir(reset_item):
+            folder_path = './' + f1.split('.')[-1]
+            if not os.path.exists(folder_path):
+                os.makedirs(folder_path)
+                shutil.copy(os.path.join(reset_item,f1),folder_path)
+            else:
+                shutil.copy(os.path.join(reset_item,f1),folder_path)
+        shutil.rmtree(reset_item)
