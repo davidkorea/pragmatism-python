@@ -11,18 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1script3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1script3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="1script3_hw2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1script3_hw2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/../../level1_2/day6/1script6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding>
                 <element signature="e#44#73#0" expanded="true" />
               </folding>
@@ -91,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1script6_hw.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1script6_hw.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../level1_2/day6/1script6_hw.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -101,24 +89,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1script6_hw_eg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../level1_2/day6/1script6_hw_eg.py">
+      <file leaf-file-name="1script7.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../level1_3/day7/1script7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="32" column="35" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
-                <element signature="e#15#30#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1script5_hw_eg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../level1_2/day5/1script5_hw_eg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -147,12 +125,13 @@
         <option value="$PROJECT_DIR$/../../level1_2/day6/1script6.py" />
         <option value="$PROJECT_DIR$/../../level1_2/day6/1script6_hw_eg.py" />
         <option value="$PROJECT_DIR$/../../level1_2/day6/1script6_hw.py" />
+        <option value="$PROJECT_DIR$/../../level1_3/day7/1script7.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="59" />
+    <option name="x" value="72" />
+    <option name="y" value="61" />
     <option name="width" value="1050" />
     <option name="height" value="632" />
   </component>
@@ -192,11 +171,7 @@
           <expand>
             <path>
               <item name="day3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day6" type="462c0819:PsiDirectoryNode" />
+              <item name="day7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,25 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1script6_hw">
-    <configuration name="1script5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../level1_2/day5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="day5" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../level1_2/day5/1script5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.1script7">
     <configuration name="1script5_hw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,20 +275,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="1script7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../level1_3/day7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="day7" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../level1_3/day7/1script7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.1script5" />
-      <item index="1" class="java.lang.String" itemvalue="Python.1script5_hw" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1script5_hw_eg" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1script6" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1script6_hw" />
+      <item index="0" class="java.lang.String" itemvalue="Python.1script5_hw" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1script5_hw_eg" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1script6" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1script6_hw" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1script7" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.1script6_hw" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1script6" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1script5_hw" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1script5_hw_eg" />
-        <item index="4" class="java.lang.String" itemvalue="Python.1script5" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1script7" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1script6_hw" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1script6" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1script5_hw" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1script5_hw_eg" />
       </list>
     </recent_temporary>
   </component>
@@ -352,13 +327,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="59" width="1050" height="632" extended-state="0" />
+    <frame x="72" y="61" width="1050" height="632" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21031746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46692607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46692607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -450,7 +425,7 @@
     <entry file="file://$PROJECT_DIR$/../../level1_2/day5/1script5_hw_eg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -458,7 +433,7 @@
     <entry file="file://$PROJECT_DIR$/../../level1_2/day6/1script6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding>
             <element signature="e#44#73#0" expanded="true" />
           </folding>
@@ -468,7 +443,7 @@
     <entry file="file://$PROJECT_DIR$/../../level1_2/day6/1script6_hw_eg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="32" selection-end-column="35" />
+          <caret line="32" column="35" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
           </folding>
@@ -480,6 +455,16 @@
         <state relative-caret-position="119">
           <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="51" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../level1_3/day7/1script7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
