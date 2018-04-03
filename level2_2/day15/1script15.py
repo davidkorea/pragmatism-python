@@ -5,6 +5,9 @@ import os
 import csv
 
 '''
+# *****************************
+# ***** day15 + day15_hw1 *****
+# *****************************
 open_chrome -> search -> scroll_down -> find_next -> save 
 '''
 
