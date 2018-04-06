@@ -5,7 +5,7 @@ import os
 
 def make_app():
     app = Tk()
-    app.title('App')
+    app.title('Run Script')
     Listbox(name='lbox').pack()
     Button(text='Run',name='run', command=run_script).pack()
     Button(text='Stop',name='stop',command=stop_script).pack()
