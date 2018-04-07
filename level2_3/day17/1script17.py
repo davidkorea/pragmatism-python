@@ -68,7 +68,7 @@ def ui_update():
             _input_time()
             _button_update()
             _entry_update()
-
+            time.sleep(0.5) #if no sleep ui update will delay a lot...kasi
     t = threading.Thread(target=_main)
     t.start()
 
