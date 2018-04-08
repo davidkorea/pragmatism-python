@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="day17" />
     <orderEntry type="module" module-name="Tkinter" />
+    <orderEntry type="module" module-name="day18" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />
