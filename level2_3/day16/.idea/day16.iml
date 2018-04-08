@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="day17" />
+    <orderEntry type="module" module-name="Tkinter" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />
