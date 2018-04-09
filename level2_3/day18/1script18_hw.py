@@ -4,8 +4,7 @@ import threading
 import time
 from runpy import run_path
 import tkinter.messagebox
-from tkinter.messagebox import Message
-
+from tkinter.filedialog import *
 # make_app -> add_task -> setting -> ui_update -> run_path
 
 data = []
@@ -73,6 +72,14 @@ def ui_update():
         for t,d in zip(tasks,data):
             t.children['task_file']['text'] = d['path_ipt']
             t.children['task_time']['text'] = d['time_ipt']
+            if d['execute'] ==True:
+                t['bg'] = '#EDFDF!'
+            else:
+                t['bg'] = '#F5F7FA'
+            for ch in multiprocessing.active_children():
+                if ch.name == d['path_ipt']:
+                    t['bg'] = '#E9F2FD'
+                    break
 
 
     def _restrict():
@@ -91,9 +98,22 @@ def ui_update():
         now = time.ctime().split()[-2]
         for d in data:
             if d['time_ipt'] <= now and not d['execute']:
-                p = multiprocessing.Process(target=lambda :run_path(d['path_ipt']))
+                p = multiprocessing.Process(name=d['path_ipt'],target=lambda :run_path(d['path_ipt']))
                 p.start()
                 d['execute'] = True
+
+    def _task_status_update():
+        #data--filepath--framename
+        for d in data:
+            if  d['execute'] ==True:
+                file=d['path_ipt']
+                for child in app.children.items():
+                    if child[0] != 'add':
+                        f = child[1]
+                        if f['task_file']['text'] == file:
+                            f['bg']='#EDFDF!'
+        pass
+
 
     def _main():
         while True:
@@ -101,6 +121,7 @@ def ui_update():
             _task_update()
             _task_time_check()
             _restrict()
+            _task_status_update()
 
     t = threading.Thread(target=_main)
     t.start()
