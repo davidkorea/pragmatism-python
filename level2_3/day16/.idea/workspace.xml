@@ -14,8 +14,8 @@
       <file leaf-file-name="1script18_hw.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../day18/1script18_hw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="275">
+              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -97,8 +97,8 @@
         <option value="$PROJECT_DIR$/../day18/1script18.py" />
         <option value="$PROJECT_DIR$/../../Tkinter/tst.py" />
         <option value="$PROJECT_DIR$/../day18/tst.py" />
-        <option value="$PROJECT_DIR$/../day18/1script18_hw.py" />
         <option value="$PROJECT_DIR$/../day18/1script18_hw_eg.py" />
+        <option value="$PROJECT_DIR$/../day18/1script18_hw.py" />
       </list>
     </option>
   </component>
@@ -456,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../day18/1script18_hw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="275">
+          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>

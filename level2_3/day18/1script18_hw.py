@@ -59,7 +59,7 @@ def save(t):
     d['path_ipt'] = path_ipt
     d['time_ipt'] = time_ipt
     d['execute'] = False
-    d['data_exsit'] = False
+    # d['data_exsit'] = False
     data.append(d)
     print(data)
 
