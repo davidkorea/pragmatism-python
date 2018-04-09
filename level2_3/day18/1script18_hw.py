@@ -9,6 +9,7 @@ from tkinter.messagebox import Message
 # make_app -> add_task -> setting -> ui_update -> run_path
 
 data = []
+task_frame = []
 
 def make_app():
     app = Tk()
@@ -18,12 +19,20 @@ def make_app():
 
 def add_task():
     f = Frame(app,bg='#f2f2f2')
+    task_frame.append(f)
     Label(f,name='task_file',text='script',bg='#f2f2f2').pack(anchor=NW)
     Label(f,name='task_time',text='00:00',bg='#f2f2f2').pack(side=LEFT)
     Button(f,name='setting',text='...',width=3,command=lambda :setting(f)).pack(side=RIGHT)
     f.pack(fill=X,padx=1,pady=1)
 
 def setting(f):
+    print(task_frame)
+    for x in task_frame:
+        if x.children['task_file']['text'] == 'script':
+            if x != f:
+                tkinter.messagebox.showerror('Err','setting first')
+                return
+            else:break
     t = Toplevel(f)
     v = StringVar(t,value='12:00')
     Label(t,name='file_path',text='File path').grid(row=0,column=0,sticky=W)
