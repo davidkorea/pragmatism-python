@@ -1,4 +1,4 @@
-# offical eg
+# offical eg XXXXXXX official error ！ this is not hw1——eg
 # coding:utf-8
 from runpy import run_path
 from tkinter import *
