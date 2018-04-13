@@ -50,6 +50,7 @@ def find_path(t):
     file_name = path.split('/')[-1]
     v=StringVar(value=file_name)
     t.children['path_ipt']['textvariable'] = v
+# can only run current path script
 
 def save(t):
     d = {}
