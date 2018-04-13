@@ -52,7 +52,8 @@ def watcher():
         now = time.ctime().split()[-2]
         for d in data:
             if d['time_ipt'] <= now and not d['execute']:
-                p = multiprocessing.Process(target=lambda :run_path(d['file_ipt']))
+                p = multiprocessing.Process(
+                    target=lambda :run_path(d['file_ipt']))
                 p.start()
                 d['execute'] = True
 
