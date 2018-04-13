@@ -24,7 +24,9 @@ def select_files():
         lbox.insert(END,show_name)
         file_path.append(f)
     print(file_path)
-
+    
+# can not run the files in other paths, only current path!
+# because of the show_name has been splitted rather than the full path name.
 def run_script():
     lbox = app.children['lbox']
     active_file = lbox.get(ACTIVE)

@@ -32,6 +32,11 @@ def open_path():
         data['status'] = False
         file_path.append(data)
         print(data)
+        
+# 打开几个文件路径，就会有几个相同process运行，不知道是为什么...??
+# 同时运行，stop可以同时结束
+
+# 其它路径的文件已经可以正常运行
 
 def run():
     lbox = app.children['lbox']
