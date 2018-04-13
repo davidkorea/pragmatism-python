@@ -56,6 +56,7 @@ def run():
             p = multiprocessing.Process(name=sub['name'],
                                         target=lambda :run_path(sub['path']))
             p.start()
+            sub['status'] = True
             # if multiprocessing.current_process().exitcode == sub['name']
 
 
@@ -77,11 +78,18 @@ def ui_update_watcher():
             app.children['run']['text'] = 'run'
             app.children['run']['command'] = run
 
-    def _tsk_update():
+    # def _tsk_finish_status():
+    #     lbox = app.children['lbox']
+    #     for sub in file_path:
+    #
+    #         if sub['status'] == True:
+    #             for
+
+
+
+    def _monitor():
         print(file_path)
         print(multiprocessing.active_children())
-        # for p in multiprocessing.active_children():
-        #     if p.name:
         lbox = app.children['lbox']
         actv_file = lbox.get(ACTIVE)
         print(actv_file + ' is ACTIVE')
@@ -91,7 +99,7 @@ def ui_update_watcher():
         while True:
             time.sleep(0.5)
             _btn_stop()
-            _tsk_update()
+            _monitor()
 
     t = threading.Thread(target=_main)
     t.start()
