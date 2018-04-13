@@ -35,6 +35,13 @@ def open_path():
         
 # 打开几个文件路径，就会有几个相同process运行，不知道是为什么...??
 # 同时运行，stop可以同时结束
+# ******* fixed ********
+#  askopenfilenames（）
+#  when use mouse or shift select multi files
+#  the file_path list will add the same path which is the last file of these files
+#  kinda the bug of askopenfilenames()
+#  if you select file one by one, the file_path would add each file's correct path
+# **********************
 
 # 其它路径的文件已经可以正常运行
 
@@ -71,6 +78,7 @@ def ui_update_watcher():
             app.children['run']['command'] = run
 
     def _tsk_update():
+        print(file_path)
         print(multiprocessing.active_children())
         # for p in multiprocessing.active_children():
         #     if p.name:
